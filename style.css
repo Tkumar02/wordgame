@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: auto;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.submit{
+    margin-top: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+#finalword{
+    width: 150px;
+    height: 30px;
+    border: 3px solid green;
+    margin-top: 20px;
+    align-self: center;
+    color:blue;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.submitbtn{
+    background: yellow;
+}
+
+
+
+
